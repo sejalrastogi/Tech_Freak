@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+}
+html{
+    margin: 0px;
+}
+body{
+    background: url('https://images.pexels.com/photos/2777898/pexels-photo-2777898.jpeg?cs=srgb&dl=photo-of-woman-wearing-turtleneck-top-2777898.jpg&fm=jpg') no-repeat center center/cover;
+    height: 1371px;
+}
+
+.navbar{
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: black;
+    /* height:38px; */
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    padding: 23px;
+}
+
+.logo{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-weight: 300;
+}
+.nav-items{
+    width: 50%;
+    width: 720px;
+    position: sticky;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 17px;
+    margin: 23px;
+    font-size: 20px;
+    color: yellowgreen;
+
+}
+
+.nav-items:hover{
+    border: 1px solid rgb(184, 146, 146);
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    padding: 15px;
+
+}
+h1{
+    font-size: 50px;
+    text-shadow: 9px 9px 9px black;
+
+
+}
+#home{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 302px; */
+    padding: 300px 121px;
+    font-size: 30px;
+    color:white;
+}
+.btn1{
+    padding: 13px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    outline: none;
+    margin-top: 15px;
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+.btn2{
+    padding: 13px;
+    margin: 3px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    outline: none;
+    margin-top: 15px;
+    opacity: 0.7;
+    cursor: pointer;
+
+    
+}
+.btn1:hover{
+    border: 1px solid rgb(184, 146, 146);
+    border-radius: 15px;
+    background-color: black;
+    color:yellowgreen;
+    /* color: black; */
+    /* opacity: 0.7; */
+    font-size: 17px;
+}
+.btn2:hover{
+    border: 1px solid rgb(184, 146, 146);
+    border-radius: 15px;
+    background-color: black;
+    color:yellowgreen;
+    /* color: black; */
+    /* opacity: 0.7; */
+    font-size: 17px;
+
+}
+#welcome{
+    background-color: white;
+    height: 349px;
+    /* width: 1111px; */
+    opacity: 0.6;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin: 150px;
+}
+.container{
+    position: relative;
+    
+}
+.container :active{
+    background-color: indianred;
+}
+#courses{
+    position: absolute;
+    background-color: green;
+    /* opacity: 0.5; */
+    color: red;
+    transition:all 5s ease-in .2s ;
+}
